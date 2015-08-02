@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Quiz" representedClassName="Quiz" syncable="YES">
+        <attribute name="endtime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="starttime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="question" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Translation" inverseName="quiz" inverseEntity="Translation" syncable="YES"/>
+    </entity>
+    <entity name="Translation" representedClassName="Translation" syncable="YES">
+        <attribute name="timecreated" attributeType="Date" syncable="YES"/>
+        <attribute name="timeupdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="quiz" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quiz" inverseName="question" inverseEntity="Quiz" syncable="YES"/>
+    </entity>
+    <entity name="TranslationItem" representedClassName="TranslationItem" syncable="YES">
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="translation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Translation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Translation" positionX="-423" positionY="-252" width="128" height="90"/>
+        <element name="TranslationItem" positionX="-423" positionY="9" width="128" height="90"/>
+        <element name="Quiz" positionX="-54" positionY="-219" width="128" height="90"/>
+    </elements>
 </model>

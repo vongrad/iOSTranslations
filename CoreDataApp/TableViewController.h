@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  CoreDataApp
 //
 //  Created by Adam Vongrej on 19/07/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController
 
+- (IBAction)unwindToPersonList:(UIStoryboardSegue *)seque;
 
 @end
-

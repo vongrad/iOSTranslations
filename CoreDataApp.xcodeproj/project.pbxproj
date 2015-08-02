@@ -10,11 +10,16 @@
 		377E39B11B5BCBFC00223F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E39B01B5BCBFC00223F9D /* main.m */; };
 		377E39B41B5BCBFC00223F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E39B31B5BCBFC00223F9D /* AppDelegate.m */; };
 		377E39B71B5BCBFC00223F9D /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 377E39B51B5BCBFC00223F9D /* CoreDataApp.xcdatamodeld */; };
-		377E39BA1B5BCBFC00223F9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E39B91B5BCBFC00223F9D /* ViewController.m */; };
 		377E39BD1B5BCBFC00223F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E39BB1B5BCBFC00223F9D /* Main.storyboard */; };
 		377E39BF1B5BCBFC00223F9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377E39BE1B5BCBFC00223F9D /* Images.xcassets */; };
 		377E39C21B5BCBFC00223F9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377E39C01B5BCBFC00223F9D /* LaunchScreen.xib */; };
 		377E39CE1B5BCBFC00223F9D /* CoreDataAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E39CD1B5BCBFC00223F9D /* CoreDataAppTests.m */; };
+		377E39D91B5BCD9A00223F9D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E39D81B5BCD9A00223F9D /* TableViewController.m */; };
+		37B81AD11B5BDD1500C08535 /* TranslationItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81AD01B5BDD1500C08535 /* TranslationItemViewController.m */; };
+		37B81ADE1B62A39800C08535 /* Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81ADD1B62A39800C08535 /* Translation.m */; };
+		37B81AE11B62A39800C08535 /* TranslationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81AE01B62A39800C08535 /* TranslationItem.m */; };
+		37B81AE41B62A39800C08535 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81AE31B62A39800C08535 /* Quiz.m */; };
+		37B81AEB1B63DBE600C08535 /* UILabelPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81AEA1B63DBE600C08535 /* UILabelPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,24 @@
 		377E39B21B5BCBFC00223F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		377E39B31B5BCBFC00223F9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		377E39B61B5BCBFC00223F9D /* CoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataApp.xcdatamodel; sourceTree = "<group>"; };
-		377E39B81B5BCBFC00223F9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		377E39B91B5BCBFC00223F9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		377E39BC1B5BCBFC00223F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377E39BE1B5BCBFC00223F9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		377E39C11B5BCBFC00223F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		377E39C71B5BCBFC00223F9D /* CoreDataAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377E39CC1B5BCBFC00223F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377E39CD1B5BCBFC00223F9D /* CoreDataAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataAppTests.m; sourceTree = "<group>"; };
+		377E39D71B5BCD9A00223F9D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		377E39D81B5BCD9A00223F9D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		37B81ACF1B5BDD1500C08535 /* TranslationItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationItemViewController.h; sourceTree = "<group>"; };
+		37B81AD01B5BDD1500C08535 /* TranslationItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationItemViewController.m; sourceTree = "<group>"; };
+		37B81ADC1B62A39800C08535 /* Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translation.h; sourceTree = "<group>"; };
+		37B81ADD1B62A39800C08535 /* Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translation.m; sourceTree = "<group>"; };
+		37B81ADF1B62A39800C08535 /* TranslationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationItem.h; sourceTree = "<group>"; };
+		37B81AE01B62A39800C08535 /* TranslationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationItem.m; sourceTree = "<group>"; };
+		37B81AE21B62A39800C08535 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		37B81AE31B62A39800C08535 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		37B81AE91B63DBE600C08535 /* UILabelPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelPicker.h; sourceTree = "<group>"; };
+		37B81AEA1B63DBE600C08535 /* UILabelPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +98,14 @@
 		377E39AD1B5BCBFC00223F9D /* CoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
+				37B81AE51B63B39600C08535 /* UI */,
+				37B81AD21B62A34B00C08535 /* CoreData */,
 				377E39B21B5BCBFC00223F9D /* AppDelegate.h */,
 				377E39B31B5BCBFC00223F9D /* AppDelegate.m */,
-				377E39B81B5BCBFC00223F9D /* ViewController.h */,
-				377E39B91B5BCBFC00223F9D /* ViewController.m */,
+				377E39D71B5BCD9A00223F9D /* TableViewController.h */,
+				377E39D81B5BCD9A00223F9D /* TableViewController.m */,
+				37B81ACF1B5BDD1500C08535 /* TranslationItemViewController.h */,
+				37B81AD01B5BDD1500C08535 /* TranslationItemViewController.m */,
 				377E39BB1B5BCBFC00223F9D /* Main.storyboard */,
 				377E39BE1B5BCBFC00223F9D /* Images.xcassets */,
 				377E39C01B5BCBFC00223F9D /* LaunchScreen.xib */,
@@ -120,6 +139,28 @@
 				377E39CC1B5BCBFC00223F9D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B81AD21B62A34B00C08535 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				37B81AE21B62A39800C08535 /* Quiz.h */,
+				37B81AE31B62A39800C08535 /* Quiz.m */,
+				37B81ADF1B62A39800C08535 /* TranslationItem.h */,
+				37B81AE01B62A39800C08535 /* TranslationItem.m */,
+				37B81ADC1B62A39800C08535 /* Translation.h */,
+				37B81ADD1B62A39800C08535 /* Translation.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		37B81AE51B63B39600C08535 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				37B81AE91B63DBE600C08535 /* UILabelPicker.h */,
+				37B81AEA1B63DBE600C08535 /* UILabelPicker.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				377E39B41B5BCBFC00223F9D /* AppDelegate.m in Sources */,
+				37B81AD11B5BDD1500C08535 /* TranslationItemViewController.m in Sources */,
+				37B81AE41B62A39800C08535 /* Quiz.m in Sources */,
 				377E39B71B5BCBFC00223F9D /* CoreDataApp.xcdatamodeld in Sources */,
-				377E39BA1B5BCBFC00223F9D /* ViewController.m in Sources */,
+				37B81AE11B62A39800C08535 /* TranslationItem.m in Sources */,
+				37B81ADE1B62A39800C08535 /* Translation.m in Sources */,
 				377E39B11B5BCBFC00223F9D /* main.m in Sources */,
+				37B81AEB1B63DBE600C08535 /* UILabelPicker.m in Sources */,
+				377E39D91B5BCD9A00223F9D /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +466,7 @@
 				377E39D31B5BCBFC00223F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377E39D41B5BCBFC00223F9D /* Build configuration list for PBXNativeTarget "CoreDataAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +475,7 @@
 				377E39D61B5BCBFC00223F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
